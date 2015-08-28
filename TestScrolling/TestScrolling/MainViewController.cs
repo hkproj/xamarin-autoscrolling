@@ -19,9 +19,9 @@ namespace TestScrolling
 			base.ViewDidLoad ();
 
 			var fields = new [] {
-				nameField,
-				emailField,
-				passwordField
+				nameField, // tab index = 0
+				emailField, // tab index = 1
+				passwordField // tab index = 2
 			};
 
 			// Initialize scrolling mechanism
